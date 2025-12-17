@@ -1,6 +1,7 @@
 #include "welcome.h"
 
 int main(){
-    welcomeContekst();
+    title();
+    skins();
     return 0;
 }

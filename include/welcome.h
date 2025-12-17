@@ -2,6 +2,7 @@
 #ifndef WELCOME_H
 #define WELCOME_H
 
-void welcomeContekst();
+void title();
+void skins();
 
 #endif

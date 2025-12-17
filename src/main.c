@@ -1,7 +1,10 @@
 #include "welcome.h"
 
-int main(){
+int main() {
     title();
-    skins();
+    start();
+    Continue();
+    credits();
+
     return 0;
 }

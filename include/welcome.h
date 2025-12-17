@@ -3,6 +3,8 @@
 #define WELCOME_H
 
 void title();
-void skins();
+void start();
+void Continue();
+void credits();
 
 #endif

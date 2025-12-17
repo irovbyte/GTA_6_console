@@ -1,5 +1,3 @@
-#include <stdio.h>
 #include "school.h"
 
-
-
+#include <stdio.h>

@@ -1,19 +1,33 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+#include "center.h"
+#include "loading.h"
 #include "welcome.h"
 
 int main() {
     int choice = menuSelect();
-    switch (choice)
-    {
-    case 0:
-        printf("Начинаем игру...\n");
-        break;
-    case 1:
-        printf("Продолжаем игру...\n");
-        break;
-    case 2:
-        printf("Открываем кредиты...\n");
-        break;
+
+    switch (choice) {
+        case 1:
+            system("clear");
+            showLoading();
+            system("clear");
+            printCentered("Игра началась!\n");
+            break;
+
+        case 2:
+            printCentered("Продолжаем игру...\n");
+            break;
+
+        case 3:
+            printCentered("Открываем кредиты...\n");
+            break;
+
+        default:
+            printCentered("Неверный ввод.\n");
+            break;
     }
+
     return 0;
 }

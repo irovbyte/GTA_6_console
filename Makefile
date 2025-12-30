@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Iinclude
 
-SRC = src/main.c src/welcome.c
+SRC = src/main.c src/welcome.c src/center.c src/loading.c
 OBJ = $(SRC:.c=.o)
 
 BUILD_DIR = build

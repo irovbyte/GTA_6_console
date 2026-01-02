@@ -12,7 +12,6 @@ int main() {
         case 1:
             system("clear");
             showLoading();
-            system("clear");
             printCentered("Игра началась!\n");
             break;
 
